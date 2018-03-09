@@ -13,9 +13,13 @@ from bs4 import BeautifulSoup
 import re
 from nltk.stem.snowball import SnowballStemmer
 from nltk.corpus import stopwords
-from DatumBox import DatumBox
+#from DatumBox import DatumBox
 import re
 from urlparse import urlparse
-import seaborn as sns # To have more than seven colors in pie diagram
+#import seaborn as sns # To have more than seven colors in pie diagram
 import plotly.plotly as py # For Gantt Chart
 import plotly.figure_factory as ff # For Gantt Chart
+
+#DBConnect
+
+from pymongo import MongoClient
